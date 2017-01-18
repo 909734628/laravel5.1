@@ -14,9 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/user', function () {
-    return 'helloo';
-});
-    Route::any('session1',['uses'=>'studentController@session1']);
-    Route::any('session2',['uses'=>'studentController@session2']);
 
